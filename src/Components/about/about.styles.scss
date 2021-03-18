@@ -1,0 +1,32 @@
+#about-page {
+	width: 90vw;
+	height: 150vh;
+	padding-left: 4em;
+	position: relative;
+	padding-top: 5em;
+
+	.about-page-center-container {
+		height: 300px;
+		// border: 1px solid;
+		width: 60vw;
+		right: 2vw;
+		position: absolute;
+		font-weight: 100;
+
+		.about-me-header {
+			font-weight: lighter;
+			color: rgb(32, 32, 32);
+			font-size: 5em;
+			transition: 2s;
+			&:hover {
+				transform: scale(0.8, 0.8);
+			}
+		}
+	}
+	.portret-image-container {
+		height: 300px;
+		width: 27vw;
+		// border: 1px solid;
+		position: absolute;
+	}
+}

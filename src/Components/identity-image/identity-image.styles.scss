@@ -1,0 +1,11 @@
+.identity-image-warper {
+	height: 450px;
+	width: 450px;
+	position: relative;
+
+	.identity-image {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+	}
+}

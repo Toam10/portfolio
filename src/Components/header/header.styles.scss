@@ -1,0 +1,26 @@
+.header-sections-container {
+	height: 500px;
+	width: 100vw;
+	background-color: transparent;
+	border: solid;
+	.main-header-warper {
+		position: absolute;
+
+		top: 12em;
+		width: 100vw;
+		background-color: transparent;
+
+		.main-header-section {
+			font-size: 4em;
+			font-weight: 100;
+			letter-spacing: 0.1em;
+			transition: 2s;
+		}
+	}
+
+	:hover {
+		.main-header-section {
+			transform: scale(0.8, 0.8);
+		}
+	}
+}
