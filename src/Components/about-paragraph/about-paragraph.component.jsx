@@ -1,8 +1,8 @@
 import React from "react";
-import "./about-paregraph.styles.scss";
+import "./about-paragraph.styles.scss";
 
-const AboutParegraph = () => (
-	<p className='about-text' >
+const AboutParagraph = () => (
+	<p className='about-text'>
 		Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio delectus, porro animi
 		tenetur sit provident sequi eius libero, nemo amet quia atque pariatur, commodi tempore
 		nesciunt maiores expedita dolores sint. Lorem ipsum dolor, sit amet consectetur
@@ -14,5 +14,4 @@ const AboutParegraph = () => (
 	</p>
 );
 
-
-export default AboutParegraph
+export default AboutParagraph;

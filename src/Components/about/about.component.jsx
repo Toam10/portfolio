@@ -1,5 +1,5 @@
 import React from "react";
-import AboutParegraph from "../about-paregraph/about-paregraph.component";
+import AboutParagraph from "../about-paragraph/about-paragraph.component";
 import png from "../../assets/sky.jpg";
 import "./about.styles.scss";
 import AboutMeFooter from "../about-me-footer/about-me-footer.component";
@@ -11,7 +11,7 @@ const AboutPage = () => (
 		</div>
 		<div className='about-page-center-container'>
 			<h1 className='about-me-header'>About me</h1>
-			<AboutParegraph />
+			<AboutParagraph />
 		</div>
 		<AboutMeFooter />
 	</div>
