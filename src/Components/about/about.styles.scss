@@ -17,9 +17,16 @@
 			font-weight: lighter;
 			color: rgb(32, 32, 32);
 			font-size: 5em;
+			font-family: "Josefin Slab", serif;
+		}
+
+		.about-me-header, hr {
 			transition: 2s;
-			&:hover {
-				transform: scale(0.8, 0.8);
+		}
+
+		&:hover {
+			.about-me-header, hr {
+				transform: scale(0.8,0.8);
 			}
 		}
 	}

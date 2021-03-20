@@ -20,6 +20,10 @@
 		.fa-star {
 			color: rgb(255, 230, 0);
 			margin: 20px 0 0 0;
+			transition: 1s ease-out;
+			&:hover {
+				transform: rotate(360deg);
+			}
 		}
 
 		h3,

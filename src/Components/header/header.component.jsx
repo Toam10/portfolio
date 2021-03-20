@@ -4,7 +4,7 @@ import "./header.styles.scss";
 const Header = () => (
 	<div className='header-sections-container'>
 		<div className='main-header-warper'>
-			<h1 className='main-header-section'> Toam Cohen - Full Stock Developer </h1>
+			<h1 className='main-header-section'> Toam Cohen - Full Stack Developer </h1>
 		</div>
 	</div>
 );

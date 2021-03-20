@@ -1,24 +1,38 @@
-.project-section{
+.project-section {
 	display: flex;
-	.project-section-image-container{
-		width: 28vw;
-		height: 50vh;
+	.project-section-image-container {
+		width: 36vw;
+		height: 60h;
 		margin: 2em;
 	}
-
-	.project-section-explantion-container{
+	.project-section-explantion-container {
 		width: 70vw;
 		height: 50vh;
 		margin: 2em;
+		margin-left: 0px;
 		overflow-y: scroll;
 		display: flex;
-		align-items: center;
+		justify-content: center;
 
-		p{
+		h1 {
+			font-family: "Josefin Slab", serif;
+			font-size: 4em;
+			font-weight: lighter;
+		}
+
+		hr {
+			margin-bottom: 1em;
+		}
+
+		p {
 			max-width: 40vw;
 			line-height: 1.6em;
 			font-size: 1.1em;
 			font-weight: lighter;
+		}
+		.sub-header-project-explantion-hr {
+			max-width: 7em;
+			background-color: rgb(32, 35, 37, 0.7);
 		}
 	}
 }

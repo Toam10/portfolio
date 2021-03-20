@@ -6,11 +6,11 @@ import { faTools } from "@fortawesome/free-solid-svg-icons";
 import { faDesktop } from "@fortawesome/free-solid-svg-icons";
 console.log(FontAwesomeIcon);
 
-const serverText = `Mongo DB , mySql , postgrest Sql , Node.js , Express`;
-const clientToolsText = `eact, MobX, Redux, JavaScript (ES5/6),
-jQuery, HTML, CSS, Sass, Materialize, Material-UI`;
+const serverText = `Mongo DB , mySql , postgrest Sql , Node.js , Express, mongoose , kenx`;
+const clientToolsText = `React, React-functional-Components ,MobX, Redux, Redux-thunk, JavaScript (ES5/6),
+	,firebase, reselect, HTML, CSS, Sass, Materialize, Material-UI`;
 
-const tools = `Git, Github, Heroku, Jira, Asana, Trello, TestRail, Slack`;
+const tools = `Git, Github ,Github-Pages, Heroku, Trello, Slack`;
 
 const MyToolsAndSkills = () => (
 	<div className='warper-tools-sections-container'>
