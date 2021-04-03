@@ -39,3 +39,46 @@
 		}
 	}
 }
+@media screen and (max-height: 1200px) {
+	#about-page {
+		display: grid;
+		position: relative;
+		height: 180vh;
+		grid-template-rows: repeat(2, 1fr);
+		padding-top: 2em;
+		justify-items: center;
+		gap: 2em;
+
+		.portret-image-container {
+			width: 40vw;
+			height: auto;
+			padding: 2em;
+		}
+
+		p {
+			max-width: 800px;
+			padding: 2em;
+			text-align: center;
+			font-weight: lighter;
+		}
+
+		.about-me-header {
+			font-weight: lighter;
+			color: rgb(32, 32, 32);
+			font-size: 5em;
+			font-family: "Josefin Slab", serif;
+		}
+
+		.about-me-header,
+		hr {
+			transition: 2s;
+		}
+
+		&:hover {
+			.about-me-header,
+			hr {
+				transform: scale(0.8, 0.8);
+			}
+		}
+	}
+}
