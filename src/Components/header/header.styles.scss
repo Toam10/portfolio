@@ -2,7 +2,7 @@
 	height: 500px;
 	width: 100vw;
 	background-color: transparent;
-	border: solid;
+
 	.main-header-warper {
 		position: absolute;
 
@@ -18,9 +18,121 @@
 			font-family: "Josefin Slab", serif;
 		}
 	}
+	:hover {
+		.main-header-section {
+			transform: scale(0.8, 0.8);
+		}
+	}
 }
-:hover {
-	.main-header-section {
-		transform: scale(0.8, 0.8);
+@media only screen and (max-width: 2000px) {
+	.header-sections-container {
+		height: 500px;
+		width: 100vw;
+		background-color: transparent;
+
+		.main-header-warper {
+			position: absolute;
+
+			top: 12em;
+			width: 100vw;
+			background-color: transparent;
+
+			.main-header-section {
+				font-size: 4em;
+				font-weight: 100;
+				letter-spacing: 0.1em;
+				transition: 2s;
+				font-family: "Josefin Slab", serif;
+			}
+		}
+	}
+	:hover {
+		.main-header-section {
+			transform: scale(0.8, 0.8);
+		}
+	}
+}
+@media only screen and (max-width: 1300px) {
+	.header-sections-container {
+		height: 500px;
+		width: 100vw;
+		background-color: transparent;
+
+		.main-header-warper {
+			position: absolute;
+
+			top: 12em;
+			width: 100vw;
+			background-color: transparent;
+
+			.main-header-section {
+				font-size: 3.2em;
+				font-weight: 100;
+				letter-spacing: 0.1em;
+				transition: 2s;
+				font-family: "Josefin Slab", serif;
+			}
+		}
+	}
+	:hover {
+		.main-header-section {
+			transform: scale(0.8, 0.8);
+		}
+	}
+}
+@media only screen and (max-width: 940px) {
+	.header-sections-container {
+		height: 400px;
+		width: 80vw;
+		background-color: transparent;
+
+		.main-header-warper {
+			position: absolute;
+
+			top: 12em;
+			width: 100vw;
+			background-color: transparent;
+
+			.main-header-section {
+				font-size: 2.2em;
+				font-weight: 100;
+				letter-spacing: 0.1em;
+				transition: 2s;
+				font-family: "Josefin Slab", serif;
+			}
+		}
+	}
+	:hover {
+		.main-header-section {
+			transform: scale(0.8, 0.8);
+		}
+	}
+}
+@media only screen and (max-width: 730px) {
+	.header-sections-container {
+		height: 350px;
+		width: 70vw;
+		background-color: transparent;
+
+		.main-header-warper {
+			position: absolute;
+
+			top: 12em;
+			width: 100vw;
+			background-color: transparent;
+
+			.main-header-section {
+				font-size: 1.5em;
+				font-weight: 100;
+				letter-spacing: 0.1em;
+				transition: 2s;
+				font-family: "Josefin Slab", serif;
+			}
+		}
+	}
+	:hover {
+		.main-header-section {
+			transform: scale(0.8, 0.8);
+		}
 	}
 }

@@ -13,6 +13,7 @@
 		overflow-y: scroll;
 		display: flex;
 		justify-content: center;
+		align-items: center;
 
 		h1 {
 			font-family: "Josefin Slab", serif;
@@ -33,6 +34,129 @@
 		.sub-header-project-explantion-hr {
 			max-width: 7em;
 			background-color: rgb(32, 35, 37, 0.7);
+		}
+	}
+}
+@media screen and (max-width: 1300px) {
+	.project-section {
+		display: flex;
+		.project-section-image-container {
+			width: 36vw;
+			height: 60h;
+			margin: 2em;
+		}
+		.project-section-explantion-container {
+			width: 70vw;
+			height: 50vh;
+			margin: 2em;
+			margin-left: 0px;
+			overflow-y: scroll;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			h1 {
+				font-family: "Josefin Slab", serif;
+				font-size: 4em;
+				font-weight: lighter;
+			}
+
+			hr {
+				margin-bottom: 0.8em;
+			}
+
+			p {
+				max-width: 40vw;
+				line-height: 1.6em;
+				font-size: 0.9em;
+				font-weight: lighter;
+			}
+			.sub-header-project-explantion-hr {
+				max-width: 7em;
+				background-color: rgb(32, 35, 37, 0.7);
+			}
+		}
+	}
+}
+@media screen and (max-width: 1000px) {
+	.project-section {
+		display: flex;
+		.project-section-image-container {
+			width: 36vw;
+			height: 60h;
+			margin: 2em;
+		}
+		.project-section-explantion-container {
+			width: 70vw;
+			height: 50vh;
+			margin: 2em;
+			margin-left: 0px;
+			overflow-y: scroll;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			h1 {
+				font-family: "Josefin Slab", serif;
+				font-size: 4em;
+				font-weight: lighter;
+			}
+
+			hr {
+				margin-bottom: 0.6em;
+			}
+
+			p {
+				max-width: 40vw;
+				line-height: 1.6em;
+				font-size: 0.7em;
+				font-weight: lighter;
+			}
+			.sub-header-project-explantion-hr {
+				max-width: 7em;
+				background-color: rgb(32, 35, 37, 0.7);
+			}
+		}
+	}
+}
+@media screen and (max-width: 1000px) {
+	.project-section {
+		display: flex;
+		.project-section-image-container {
+			width: 36vw;
+			height: 60h;
+			margin: 2em;
+		}
+		.project-section-explantion-container {
+			width: 70vw;
+			height: 50vh;
+			margin: 2em;
+			margin-left: 0px;
+			overflow-y: scroll;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			h1 {
+				font-family: "Josefin Slab", serif;
+				font-size: 3em;
+				font-weight: lighter;
+			}
+
+			hr {
+				margin-bottom: 0.6em;
+			}
+
+			p {
+				max-width: 40vw;
+				line-height: 1.6em;
+				font-size: 0.7em;
+				font-weight: lighter;
+			}
+			.sub-header-project-explantion-hr {
+				max-width: 7em;
+				background-color: rgb(32, 35, 37, 0.7);
+			}
 		}
 	}
 }

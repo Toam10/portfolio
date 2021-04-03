@@ -8,7 +8,7 @@ const toolsBackEndFunc = (toolsBackEnd) => {
 			<>
 				<span className='sub-header-project-explantion'> Back End Tools</span>
 				<hr className='sub-header-project-explantion-hr' />
-				<br/>
+				<br />
 				{toolsBackEnd}
 			</>
 		);
@@ -23,9 +23,15 @@ const ProjectSection = ({ imageUrl, header, text, toolsBackEnd, toolsFrontEnd })
 				<Tilt
 					className='Tilt'
 					options={{ max: 25 }}
-					style={{ width: "100%", height: "100%" }}
+					style={{
+						width: "100%",
+						height: "100%",
+						display: "flex",
+						justifyContent: "center",
+						alignItems: "center",
+					}}
 				>
-					<img src={imageUrl} alt='' width='100%' height='100%' />
+					<img src={imageUrl} alt='' width='100%' height='auto' />
 				</Tilt>
 			</div>
 			<div className='project-section-explantion-container'>
@@ -35,11 +41,14 @@ const ProjectSection = ({ imageUrl, header, text, toolsBackEnd, toolsFrontEnd })
 					{text}
 					<br />
 					<>
-					<span className='sub-header-project-explantion'> Front End Tools</span>
-					<hr className='sub-header-project-explantion-hr' />
-					{toolsFrontEnd}
+						<span className='sub-header-project-explantion'>
+							{" "}
+							Front End Tools
+						</span>
+						<hr className='sub-header-project-explantion-hr' />
+						{toolsFrontEnd}
 					</>
-					<br/>
+					<br />
 					{toolsBackEndFunc(toolsBackEnd)}
 				</p>
 			</div>

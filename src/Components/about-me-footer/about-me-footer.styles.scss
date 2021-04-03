@@ -1,10 +1,7 @@
 .about-me-footer {
-	position: absolute;
-	bottom: 0;
-	left: 0;
 	border: solid 1px;
 	box-shadow: 0 0 5px 5px;
-	height: 350px;
+	height: 40vh;
 	width: 100vw;
 	display: flex;
 	justify-content: center;
@@ -36,6 +33,129 @@
 			text-align: center;
 			margin: 0px;
 			padding: 1rem;
+		}
+	}
+}
+@media screen and (max-width: 1000px ) {
+	.about-me-footer {
+		border: solid 1px;
+		box-shadow: 0 0 5px 5px;
+		height: 40vh;
+		width: 100vw;
+		display: flex;
+		justify-content: center;
+		background-color: rgb(39, 33, 37);
+		gap: 3vw;
+
+		:last-child {
+			margin-right: 25px;
+		}
+
+		.about-me-accomplishments {
+			width: 30%;
+			.fa-star {
+				color: rgb(255, 230, 0);
+				margin: 20px 0 0 0;
+				transition: 1s ease-out;
+				font-size: 2em !important;
+				&:hover {
+					transform: rotate(360deg);
+				}
+			}
+
+			h3,
+			p {
+				color: rgb(255, 255, 255);
+				font-weight: 100;
+				font-size: 0.8rem;
+			}
+			p {
+				text-align: center;
+				margin: 0px;
+				padding: 1rem;
+			}
+		}
+	}
+}
+@media screen and (max-width: 600px) {
+	.about-me-footer {
+		border: solid 1px;
+		box-shadow: 0 0 5px 5px;
+		height: 30vh;
+		width: 100vw;
+		display: flex;
+		justify-content: center;
+		background-color: rgb(39, 33, 37);
+		gap: 3vw;
+
+		:last-child {
+			margin-right: 25px;
+		}
+
+		.about-me-accomplishments {
+			width: 30%;
+			.fa-star {
+				color: rgb(255, 230, 0);
+				margin: 20px 0 0 0;
+				transition: 1s ease-out;
+				font-size: 2em !important;
+				&:hover {
+					transform: rotate(360deg);
+				}
+			}
+
+			h3,
+			p {
+				color: rgb(255, 255, 255);
+				font-weight: 100;
+				font-size: 0.6rem;
+			}
+			p {
+				text-align: center;
+				margin: 0px;
+				padding: 1rem;
+			}
+		}
+	}
+}
+@media screen and (max-width: 400px) {
+	.about-me-footer {
+		border: solid 1px;
+		box-shadow: 0 0 5px 5px;
+		height: 20vh;
+		width: 100vw;
+		display: flex;
+		justify-content: center;
+		background-color: rgb(39, 33, 37);
+		gap: 3vw;
+
+		:last-child {
+			margin-right: 25px;
+		}
+
+		.about-me-accomplishments {
+			width: 30%;
+			.fa-star {
+				color: rgb(255, 230, 0);
+				margin: 20px 0 0 0;
+				transition: 1s ease-out;
+				font-size: 1em !important;
+				&:hover {
+					transform: rotate(360deg);
+				}
+			}
+
+			h3,
+			p {
+				color: rgb(255, 255, 255);
+				font-weight: 100;
+				font-size: 0.4rem;
+			}
+			p {
+				text-align: center;
+				margin: 0px;
+				padding: 1rem;
+			}
 		}
 	}
 }

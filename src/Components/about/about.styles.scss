@@ -1,39 +1,41 @@
 #about-page {
-	width: 90vw;
-	height: 150vh;
-	padding-left: 4em;
+	display: grid;
 	position: relative;
-	padding-top: 5em;
+	height: 140vh;
+	grid-template-rows: repeat(2, 1fr);
+	padding-top: 2em;
+	justify-items: center;
+	gap: 2em;
 
-	.about-page-center-container {
-		height: 300px;
-		// border: 1px solid;
-		width: 60vw;
-		right: 2vw;
-		position: absolute;
-		font-weight: 100;
-
-		.about-me-header {
-			font-weight: lighter;
-			color: rgb(32, 32, 32);
-			font-size: 5em;
-			font-family: "Josefin Slab", serif;
-		}
-
-		.about-me-header, hr {
-			transition: 2s;
-		}
-
-		&:hover {
-			.about-me-header, hr {
-				transform: scale(0.8,0.8);
-			}
-		}
-	}
 	.portret-image-container {
-		height: 300px;
-		width: 27vw;
-		// border: 1px solid;
-		position: absolute;
+		width: 40vw;
+		height: auto;
+		padding: 2em;
+	}
+
+	p {
+		max-width: 800px;
+		padding: 2em;
+		text-align: center;
+		font-weight: lighter;
+	}
+
+	.about-me-header {
+		font-weight: lighter;
+		color: rgb(32, 32, 32);
+		font-size: 5em;
+		font-family: "Josefin Slab", serif;
+	}
+
+	.about-me-header,
+	hr {
+		transition: 2s;
+	}
+
+	&:hover {
+		.about-me-header,
+		hr {
+			transform: scale(0.8, 0.8);
+		}
 	}
 }

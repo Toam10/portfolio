@@ -5,12 +5,11 @@ import "./portfolio.styles.scss";
 
 const PortfolioPage = () => (
 	<div className='portfolio-page'>
-		<h1 className='projects-sction-header' >My Projects</h1>
-		<hr/>
+		<h1 className='projects-sction-header'>My Projects</h1>
+		<hr />
 		<ProjectsBag />
-		<Footer/>
+		<Footer />
 	</div>
-	
 );
 
 export default PortfolioPage;
